@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descendant selector</title>
+</head>
+<style>
+    body{
+        background-color: black;
+    }
+    article ol{
+        margin-top: 60px;
+        border-radius: 30px;
+        padding: 25px;
+        background: linear-gradient(  #f3503c, #d53567, #A7489B); 
+    }
+    h1{
+        background: linear-gradient( #fff400, #ffa601, #f3503c, #d53567, #A7489B);
+            font-weight: 700;
+            font-size: 2.5em ;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-top: 30px;
+            text-align: center;
+           
+    }
+    ol > li{
+        color: whitesmoke;
+        line-height: 40px;
+        font-size: 1.25em;
+        text-align: center;
+        list-style: none;
+       
+    }
+    ol>li:hover{
+        cursor: pointer;
+        font-style: italic;
+        transform: 0.4s top;
+        background-color: blueviolet;
+        padding: 10px;
+        
+    }
+   
+</style>
+<body>
+    <div>
+        <article>
+            <h1>Completed Goals</h1>
+            <ol>
+                <li>Never Settle for Average.</li>
+                <li>I believe in Myself.</li>
+                <li>I am a confident coder.</li>
+                <li>I am <b>Google STEP Intern 2022 </b> India.</li>
+                <li>I am doing meditation daily by affirming all my desire things.</li>
+                <li>I am surrounded with happiness and love.</li>
+            </ol>
+        </article>
+    </div>
+</body>
+</html>
