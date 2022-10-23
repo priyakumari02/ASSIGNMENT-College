@@ -7,29 +7,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>p tag Quotes</title>
     <style>
-        body {
-            background-color: black;
-            margin-top: 5%;
-           
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        div{
+            border: 5px solid rgb(194, 25, 76);
+            margin: 2em;
+            padding: 2em;
+            background-color: rgb(4, 121, 76);
+            color: white;
         }
 
         p.ad {
-            color: blue;
             text-align: center;
-            font-size: 2em ;
-
+            font-size: 1.5em ;
         }
 
         p.sd {
-            color: red;
             text-align: justify;
             font-size: 1.5em ;
         }
 
         .ad:hover , .sd:hover{
             cursor: pointer;
-            color:white;
-            font: 1em sans-serif;
+            color:black;
             font-style: italic;
         }
     </style>
